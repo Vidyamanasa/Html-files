@@ -1,0 +1,55 @@
+<html>
+    <head><title>Details</title></head>
+    <style>
+        .button {
+        background-color: black;
+        border: none;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        }
+        a:link {
+        color: white;
+        }
+
+        a:visited {
+        color: Red;
+        }
+        a:hover {
+        color: rgb(16, 66, 16);
+       }
+
+       a:active {
+       color: rgb(66, 133, 216);
+       }       
+    </style>
+    <body>
+        <h2><center>User Details</center></h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" value="Vidyamanasa"><br>
+            <label for="phone number">Phone Number:</label><br>
+            <input type="text" value="6300737851"><br>
+            <label for="course">course:</label><br>
+            <input type="radio" id="Bachelors" name="Degree" checked>
+            <label for="Bachelors">Bachelors</label><br>
+            <input type="radio" id="Masters" name="Degree">
+            <label for="Masters">Masters</label><br>
+            <label for="description">Description:</label><br>
+            <textarea id="Description" name="Description" rows="9" cols="90" maxlength="200" placeholder="I am pursuing Bachelor of Engineering in Computer Science"></textarea><br>
+            <label for="Subject">Subject interests:</label><br>
+            <input type="checkbox" id="python" name="python" checked>
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="Java" name="Java">
+            <label for="Java">Java</label><br>
+            <input type="checkbox" id="C++" name="C++">
+            <label for="python">C++</label><br>
+            <input type="checkbox" id="R" name="R">
+            <label for="R">R</label><br>
+            <button type="submit">submit</button>
+            <a href="formdetails.html" class="button">Display</a>
+        </form>
+    </body>
+</html>
