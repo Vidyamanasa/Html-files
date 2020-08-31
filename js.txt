@@ -1,0 +1,7 @@
+JavaScript is a programming language that adds interactivity to websites. It is a dynamic programming language which was invented by Brendan Eich. JavaScript shortly called as JS. It is beginner-friendly. JavaScript is easy to learn. It is an interpreted programming language
+JavaScript can be implemented using JavaScript statements that are placed within the <script> …</script>HTML tags in a web page. In JavaScript one can create variables using var or let keyword. And that variable may be String, Number, Boolean, Array, Object.
+To signify that the value is string, enlose it in quotes.
+Numbers don’t have quotes around them.
+And in Boolean the words true and false are special keywords, they don’t need quotes.
+Array is a structure that allows you to store multiple values in a single reference.
+
