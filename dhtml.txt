@@ -1,0 +1,9 @@
+DHTML means Dynamic HTML. It is the combination of HTML, CSS, JS, and DOM. It makes the content dynamic. The DHTML make use of Dynamic object model to make changes in settings and also in properties and methods. And it used to create interactive and animated webpages. 
+DHTML is different from HTML. It is just an browsers enhancement feature which makes it possible to access the object model through JavaScript. DHTML has the ability to change a web pages look, once the document has loaded on our demand without changing or deleting everything already existing on the browser’s webpage.
+Some of the key features of DHTML are:
+1. Tags and their properties can be changed using DHTML.
+2. It is used for real-time positioning.
+3. Dynamic fonts can be generated using DHTML.
+4. It is also used for data binding.
+
+DHTML is different from HTML as HTML is a markup language but DHTML is collection technologies. HTML is used to create static webpages while DHTML create dynamic web pages.
