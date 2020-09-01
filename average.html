@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Subjects and marks</h2>
+<table>
+  <tr>
+    <th>Subjects</th>
+    <th>Marks</th> 
+  </tr>
+  <tr>
+    <td>python</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>Data structures</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>R programming</td>
+    <td>90</td>
+  </tr>
+  <tr>
+      <th>Total</th>
+      <td id = "demo1"></td>
+  </tr>
+  <tr>
+      <th>Average</th>
+      <td id="demo2"></td>
+  </tr>
+</table>
+<script>
+    var total= (80+80+90);
+    var average =(total)/3;
+    document.getElementById("demo1").innerHTML= total;
+    document.getElementById("demo2").innerHTML= average;
+
+</script>
+
+</body>
+</html>
