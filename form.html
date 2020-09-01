@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head><title>Details</title></head>
+    <style>
+        .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+    </style>
     <body>
         <h2><center>User Details</center></h2>
         <form>
-            <label for="name">Name:</label><br>
-            <input type="text"><br>
+            <label for="name">Name:</label> <br>
+            <input type="text" value="Vidyamanasa" required><br>
             <label for="phone number">Phone Number:</label><br>
-            <input type="text"><br>
+            <input type="text" pattern = "[0-9]{10}" required ><br>
             <label for="course">course:</label><br>
-            <input type="radio" id="Bachelors" name="Degree">
+            <input type="radio" id="Bachelors" name="Degree" checked>
             <label for="Bachelors">Bachelors</label><br>
             <input type="radio" id="Masters" name="Degree">
             <label for="Masters">Masters</label><br>
             <label for="description">Description:</label><br>
-            <textarea id="Description" name="Description" rows="9" cols="90" maxlength="200"></textarea><br>
+            <textarea id="Description" name="Description" rows="9" cols="90" maxlength="200" value="I am pursuing Bachelor of Engineering in Computer Science" required></textarea><br>
             <label for="Subject">Subject interests:</label><br>
-            <input type="checkbox" id="python" name="python">
+            <input type="checkbox" id="python" name="python" checked>
             <label for="python">Python</label><br>
             <input type="checkbox" id="Java" name="Java">
             <label for="Java">Java</label><br>
             <input type="checkbox" id="C++" name="C++">
             <label for="python">C++</label><br>
             <input type="checkbox" id="R" name="R">
-            <label for="R">R</label>
+            <label for="R">R</label><br>
+            <input type="submit" value="submit">
+            <a href="formdetails.html" class="button">Display</a>
         </form>
     </body>
 </html>
