@@ -4,6 +4,8 @@
         <h2>finding the number is in between 10-100</h2>
         <p id="i1"></p>
         <p id="i2"></p>
+        <p id="i3"></p>
+        <p id = "i4"></p>
     <script>
         function myFunction(x){
             var x;
@@ -16,6 +18,15 @@
         }
         document.getElementById("i1").innerHTML = "Taking 7 as input:" + myFunction(7);
         document.getElementById("i2").innerHTML = "Taking 54 as input:" + myFunction(54);
+        try{
+            x=y+1;
+        }
+        catch (error) {
+            document.getElementById("i3").innerHTML = error.name;
+        }
+        finally {
+            document.getElementById("i4").innerHTML = "if error then solve it";
+        }
     </script>
     </body>
 </html>
