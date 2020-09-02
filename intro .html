@@ -24,8 +24,22 @@
     <body> 
         <h1>Understanding Html</h1>
         <h3>What is Html?</h3>
-        <p>HTML stands for Hyper Text Markup Language.<br>HTML is the standard markup language for creating Web pages
-        and it describes the structure of a Web page </p>
+        <p>HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages</p>
+        <p>finding 5th word</p>
+        <p id="i1"></p>
+        <p>finding 7th word</p>
+        <p id="i2"></p>
+        <p>findind 10th word</p>
+        <p id="i3"></p>
+<script>
+var str = "HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages";
+var find = str.search("Text");
+document.getElementById("i1").innerHTML = find;
+var find1 = str.search("Language");
+document.getElementById("i2").innerHTML = find1;
+var find2 = str.search("is");
+document.getElementById("i3").innerHTML = find2;
+</script>
         <h3>Basic things to know in Html..</h3>
         <p>An HTML element is defined by a start tag, some content, and an end tag.<br>All Html documents must start with a document type declaration: <!DOCTYPE html>.<br>And the Html document begins with html element.And the visible part of the document is between body element.</p>
         <p>In Html one can add images using "img"tag.The <q>src</q> attribute specifies the path to the image to be displayed.</p>
