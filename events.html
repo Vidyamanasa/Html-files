@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Implementing onclick Event</p>
+        <button onclick="document.getElementById('i1').style.color= 'blue'" >onclick</button>
+        <p id="i1">onclick Event</p>
+        <p>Implementing onmouseover and onmouseout</p>
+        <img onmouseover="myFunction1(this)" border="0" onmouseout="myFunction2(this)" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/256/sign-right-icon.png"  width="30px" height="30px">
+
+<script>
+function myFunction1(x) {
+  x.style.height = "50px";
+  x.style.width = "50px";
+}
+function myFunction2(x) {
+  x.style.height = "30px";
+  x.style.width = "30px";
+}
+
+</script>
+
+    </body>
+</html>
+
