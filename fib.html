@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>Fibonacci Series</h3>
+    <p id="i1"></p>
+    <script>
+       function fibonacci(x) {
+
+var a= 0, b = 1 , c = 1;
+
+for(var i = 2; i <= x; i++) {
+    c = a + b;
+    a = b;
+    b = c;
+}
+return c;
+};
+document.getElementById("i1").innerHTML =fibonacci(7);
+    </script>
+</body>
+</html>
