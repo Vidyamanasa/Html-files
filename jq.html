@@ -1,0 +1,46 @@
+<html> 
+    <head>
+        <title>My first Html</title>
+        <style>
+            body {
+                background-color: rgb(236, 232, 232);
+            }
+            h1 {
+                text-align: center;
+                color:black;
+                font-style: unset;
+            }
+            h3 {
+                text-align: left;
+                color:black;
+                font-size: 25px;
+            }
+            p {
+                font-style: italic;
+                font-size: 20px;
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body> 
+        <h1>Understanding Html</h1>
+        <button  id = "h" style="color: slateblue;">Hide</button>
+        <button  id = "s" style="color: slateblue;">Show</button>
+ 
+<script>
+$( "#h" ).click(function() {
+  $( "h3" ).hide( "slow" );
+});
+$( "#s" ).click(function() {
+  $( "h3" ).show( "slow" );
+});
+
+</script>
+        <h3>What is Html?</h3>
+        <p>HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages</p>
+        <h3>Basic things to know in Html..</h3>
+        <p>An HTML element is defined by a start tag, some content, and an end tag.<br>All Html documents must start with a document type declaration: <!DOCTYPE html>.<br>And the Html document begins with html element.And the visible part of the document is between body element.</p>
+        <p>In Html one can add images using "img"tag.The <q>src</q> attribute specifies the path to the image to be displayed.</p>
+        <a href="https://www.w3schools.com/html/">Want to know more about Html..go through this link</a>
+    </body>
+</html>
